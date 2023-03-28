@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Control : MonoBehaviour
 {
-    public KillSquare killSquare;
+    public PlayerDeath playerDeath;
     public MapMovement map;
+    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && killSquare.isDead == true)
+        if (Input.GetKeyDown(KeyCode.Space) && playerDeath.isDead == true)
         {
             //SceneManager.LoadScene(0);
             HardReset();
@@ -24,9 +25,10 @@ public class Control : MonoBehaviour
     }
     public void HardReset()
     {
-        killSquare.isDead = false;
+        playerDeath.isDead = false;
         map.transform.position = map.startPos;
         map.timePassed = 0;
+        player.SetActive(true);
     }
 
 }

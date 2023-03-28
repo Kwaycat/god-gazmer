@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 9305754}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &9305755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 63360520}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 69943615}
   m_Layer: 0
   m_Name: Triangle (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &69943616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 96373295}
   m_Layer: 0
   m_Name: Triangle (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,8 +509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &96373296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 152969724}
   m_Layer: 0
   m_Name: Square (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 184134666}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!58 &184134668
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 195109844}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -908,7 +908,7 @@ GameObject:
   - component: {fileID: 198594278}
   m_Layer: 0
   m_Name: Square (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 204543260}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1004,7 +1004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204543259}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.610001, y: 0.16000009, z: 41.272503}
+  m_LocalPosition: {x: -13.610001, y: 0.4, z: 41.272503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1025,7 +1025,7 @@ GameObject:
   - component: {fileID: 253615446}
   m_Layer: 0
   m_Name: Triangle (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &253615447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 292622081}
   m_Layer: 0
   m_Name: Square (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1233,7 +1233,7 @@ GameObject:
   - component: {fileID: 333378901}
   m_Layer: 0
   m_Name: Square (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1408,13 +1408,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337271475}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: -4.75, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.418266, y: -9.443335, z: 9.992895}
   m_LocalScale: {x: 999999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1770549326}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &357803346
 GameObject:
@@ -1469,7 +1469,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.735525
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1493,7 +1493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 357803346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -2.15, y: 0.11, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &363138952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1640,7 +1640,7 @@ GameObject:
   - component: {fileID: 376528303}
   m_Layer: 0
   m_Name: Triangle (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1673,7 +1673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &376528304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1855,13 +1855,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388789774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.75, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.418266, y: 0.056664944, z: 9.992895}
   m_LocalScale: {x: 999999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1770549326}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391238587
 GameObject:
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 391238589}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1959,7 +1959,7 @@ GameObject:
   - component: {fileID: 396692954}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2045,7 +2045,7 @@ GameObject:
   - component: {fileID: 483090223}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2078,7 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &483090224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2171,7 +2171,7 @@ GameObject:
   - component: {fileID: 632892245}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2204,7 +2204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &632892246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2295,7 +2295,7 @@ GameObject:
   - component: {fileID: 651445612}
   m_Layer: 0
   m_Name: Square (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2379,7 +2379,7 @@ GameObject:
   - component: {fileID: 716517365}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2463,7 +2463,7 @@ GameObject:
   - component: {fileID: 756638952}
   m_Layer: 0
   m_Name: Square (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2550,7 +2550,7 @@ GameObject:
   - component: {fileID: 794953947}
   m_Layer: 0
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2604,7 +2604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!58 &794953949
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2687,7 +2687,7 @@ GameObject:
   - component: {fileID: 803837916}
   m_Layer: 0
   m_Name: Triangle (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2720,7 +2720,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &803837917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2813,7 +2813,7 @@ GameObject:
   - component: {fileID: 809353828}
   m_Layer: 0
   m_Name: Triangle (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2845,8 +2845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &809353829
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2939,7 +2939,7 @@ GameObject:
   - component: {fileID: 867599335}
   m_Layer: 0
   m_Name: Triangle (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2972,7 +2972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &867599336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3063,7 +3063,7 @@ GameObject:
   - component: {fileID: 883052135}
   m_Layer: 0
   m_Name: Square (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3148,8 +3148,9 @@ GameObject:
   - component: {fileID: 943606127}
   - component: {fileID: 943606126}
   - component: {fileID: 943606125}
+  - component: {fileID: 943606129}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3163,7 +3164,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943606123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.55, y: -2.97, z: 0}
+  m_LocalPosition: {x: -5.37, y: -3.37, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3281,6 +3282,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &943606129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943606123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02acdda56f659d46bce5e4295a5669c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDead: 0
 --- !u!1 &952277330
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,7 +3309,7 @@ GameObject:
   - component: {fileID: 952277332}
   m_Layer: 0
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3327,8 +3341,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &952277333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3421,7 +3435,7 @@ GameObject:
   - component: {fileID: 993047971}
   m_Layer: 0
   m_Name: Triangle (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3454,7 +3468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &993047972
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3548,7 +3562,7 @@ GameObject:
   - component: {fileID: 1009722203}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3602,7 +3616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!58 &1009722205
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3683,7 +3697,7 @@ GameObject:
   - component: {fileID: 1073294227}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3767,7 +3781,7 @@ GameObject:
   - component: {fileID: 1102388240}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3854,7 +3868,7 @@ GameObject:
   - component: {fileID: 1132988448}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3887,7 +3901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1132988449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3978,7 +3992,7 @@ GameObject:
   - component: {fileID: 1183577407}
   m_Layer: 0
   m_Name: Square (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4062,7 +4076,7 @@ GameObject:
   - component: {fileID: 1191384218}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4149,7 +4163,7 @@ GameObject:
   - component: {fileID: 1195558829}
   m_Layer: 0
   m_Name: Triangle (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4182,7 +4196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1195558830
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4275,7 +4289,7 @@ GameObject:
   - component: {fileID: 1239192455}
   m_Layer: 0
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4307,8 +4321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &1239192456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4401,7 +4415,7 @@ GameObject:
   - component: {fileID: 1264544391}
   m_Layer: 0
   m_Name: Triangle (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4434,7 +4448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1264544392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4527,7 +4541,7 @@ GameObject:
   - component: {fileID: 1283602056}
   m_Layer: 0
   m_Name: Triangle (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4560,7 +4574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1283602057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4639,6 +4653,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1289736318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289736320}
+  - component: {fileID: 1289736319}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1289736319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289736318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaf811ba45de61418cd30f0afd0c56b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDeath: {fileID: 943606129}
+  map: {fileID: 1770549325}
+  player: {fileID: 943606123}
+--- !u!4 &1289736320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289736318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.418266, y: 4.693335, z: -9.992895}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1297430460
 GameObject:
   m_ObjectHideFlags: 0
@@ -4686,7 +4747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1297430463
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4777,7 +4838,7 @@ GameObject:
   - component: {fileID: 1350731024}
   m_Layer: 0
   m_Name: Square (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4896,7 +4957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1423530504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4987,7 +5048,7 @@ GameObject:
   - component: {fileID: 1428840853}
   m_Layer: 0
   m_Name: Square (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5072,7 +5133,7 @@ GameObject:
   - component: {fileID: 1562343628}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5157,26 +5218,13 @@ GameObject:
   - component: {fileID: 1593961467}
   - component: {fileID: 1593961466}
   - component: {fileID: 1593961465}
-  - component: {fileID: 1593961464}
   m_Layer: 0
   m_Name: map (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1593961464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593961463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91b274bcec5917b4e809534c6e968b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1593961465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5189,8 +5237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &1593961466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5276,8 +5324,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593961463}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6100006, y: -3.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.8082657, y: -8.653336, z: 9.992895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5320,8 +5368,8 @@ Transform:
   - {fileID: 1822501241}
   - {fileID: 1009722202}
   - {fileID: 184134665}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1770549326}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1605075907
 GameObject:
@@ -5337,7 +5385,7 @@ GameObject:
   - component: {fileID: 1605075909}
   m_Layer: 0
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5369,8 +5417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfdd2261219a4c94e87adb453a0c75c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  player: {fileID: 943606123}
+  isDead: 0
 --- !u!61 &1605075910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5463,7 +5511,7 @@ GameObject:
   - component: {fileID: 1624729751}
   m_Layer: 0
   m_Name: Triangle (09)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5496,7 +5544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1624729752
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5622,7 +5670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1653742833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5713,7 +5761,7 @@ GameObject:
   - component: {fileID: 1677069061}
   m_Layer: 0
   m_Name: Square (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5801,7 +5849,7 @@ GameObject:
   - component: {fileID: 1748787260}
   m_Layer: 0
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5855,7 +5903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!58 &1748787262
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5936,7 +5984,7 @@ GameObject:
   - component: {fileID: 1764874221}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6015,6 +6063,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1770549324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770549326}
+  - component: {fileID: 1770549325}
+  m_Layer: 0
+  m_Name: Real map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1770549325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770549324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b274bcec5917b4e809534c6e968b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {x: 0, y: 0}
+  timePassed: 0
+--- !u!4 &1770549326
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770549324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.418266, y: 4.693335, z: -9.992895}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 337271478}
+  - {fileID: 388789777}
+  - {fileID: 1593961468}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1779618695
 GameObject:
   m_ObjectHideFlags: 0
@@ -6029,7 +6126,7 @@ GameObject:
   - component: {fileID: 1779618697}
   m_Layer: 0
   m_Name: Triangle (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6064,7 +6161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1779618698
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6157,7 +6254,7 @@ GameObject:
   - component: {fileID: 1822501242}
   m_Layer: 0
   m_Name: Triangle (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6190,7 +6287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &1822501243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6281,7 +6378,7 @@ GameObject:
   - component: {fileID: 1866876578}
   m_Layer: 0
   m_Name: Square (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6365,7 +6462,7 @@ GameObject:
   - component: {fileID: 1891376322}
   m_Layer: 0
   m_Name: Square (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6450,7 +6547,7 @@ GameObject:
   - component: {fileID: 2015939110}
   m_Layer: 0
   m_Name: Square (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6536,7 +6633,7 @@ GameObject:
   - component: {fileID: 2034800567}
   m_Layer: 0
   m_Name: Triangle (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6569,7 +6666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &2034800568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6662,7 +6759,7 @@ GameObject:
   - component: {fileID: 2038608705}
   m_Layer: 0
   m_Name: Triangle (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6695,7 +6792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &2038608706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6821,7 +6918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &2060173646
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6914,7 +7011,7 @@ GameObject:
   - component: {fileID: 2073520922}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6947,7 +7044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 943606124}
-  respawn_point: {fileID: 204543260}
+  isDead: 0
 --- !u!61 &2073520923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7038,7 +7135,7 @@ GameObject:
   - component: {fileID: 2084140755}
   m_Layer: 0
   m_Name: Square (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

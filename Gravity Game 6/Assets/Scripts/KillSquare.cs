@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class KillSquare : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField] private Transform respawn_point;
-
+    public GameObject player;
     public bool isDead = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        player.transform.position = respawn_point.transform.position;
+        player.SetActive(false);
         isDead = true;
     }
 }
