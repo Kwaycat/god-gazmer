@@ -6,7 +6,8 @@ public class MapMovement : MonoBehaviour
 {
 
     float scrollSpeed = -5f;
-    Vector2 startPos;
+    public Vector2 startPos;
+    public float timePassed = 0;
 
 
     // Start is called before the first frame update
@@ -18,8 +19,8 @@ public class MapMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float newPos = Time.time * scrollSpeed;
+        timePassed += Time.deltaTime;
+        float newPos = timePassed * scrollSpeed;
         transform.position = startPos + Vector2.right * newPos;
-        Debug.Log("time: " + Time.time + " & Deltatime" + Time.deltaTime);              
     }
 }
