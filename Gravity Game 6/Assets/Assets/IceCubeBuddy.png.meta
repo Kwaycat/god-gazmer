@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e029366697eb79c48ba5341d8da818ad
-      internalID: 1315401511
+      spriteID: 6dcbab2e07f796a4793633a8b96e5f81
+      internalID: -1539767210
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d12f6369befd9a043879d2ca1ecf8d9e
-      internalID: 1376674100
+      spriteID: 7b12173a445b1df4e82ac2c1f9c99d77
+      internalID: 1593796598
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 406db5cced7c87642a8d511633a56d80
-      internalID: 1049715315
+      spriteID: 8b6724ca41228b141b515f159abd4909
+      internalID: -1206880352
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ff998b88057a5d4f918f790ea756b68
-      internalID: 1750928045
+      spriteID: e950018bf17b59248833cb21dbef2181
+      internalID: -608826924
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c742962d32ab49449d285b038b390c3
-      internalID: 575596206
+      spriteID: 497ffbb5b08e69e499ee455a7739aa06
+      internalID: -806266395
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2505aacde66f7574891de55490625c92
-      internalID: -1870960907
+      spriteID: e592060151eee8747af524ff72d99c98
+      internalID: -1324887433
       vertices: []
       indices: 
       edges: []
@@ -262,13 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IceCubeBuddy_1: 1315401511
-      IceCubeBuddy_2: 1376674100
+      IceCubeBuddy_1: -1539767210
+      IceCubeBuddy_2: 1593796598
       IceCubeBuddy_0: -608493145
-      IceCubeBuddy_3: 1049715315
-      IceCubeBuddy_4: 1750928045
-      IceCubeBuddy_5: 575596206
-      IceCubeBuddy_6: -1870960907
+      IceCubeBuddy_3: -1206880352
+      IceCubeBuddy_4: -608826924
+      IceCubeBuddy_5: -806266395
+      IceCubeBuddy_6: -1324887433
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
